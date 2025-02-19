@@ -1,0 +1,58 @@
+@import "bootstrap/_functions";
+@import "bootstrap/_variables";
+@import "~bootstrap/scss/_variables.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text-orange {
+    color: rgb(167, 81, 19);
+}
+
+
+.border-orange {
+    border-bottom: 3px solid rgb(167, 81, 19);
+}
+
+.navbar-toggler-icon {
+    color: rgb(167, 81, 19);
+}
+
+.text-green {
+    color: rgb(13, 50, 0);
+}
+
+.bg-green {
+    background-color: rgb(13, 50, 0);
+}
+
+.about a:hover {
+    background-color: rgb(222, 222, 222);
+    color: rgb(167, 81, 19);
+}
+
+.about a {
+    border: 2px solid rgb(167, 81, 19);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.about p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.navbar a {
+    font-family: serif;
+    font-style: italic;
+}
+
+.mission {
+    font-family: serif;
+}
+
+.missions {
+    text-shadow: 1px 1px 1px rgb(167, 81, 19);
+}
