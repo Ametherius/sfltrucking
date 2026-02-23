@@ -1,0 +1,24 @@
+{
+  "name": "sfltrucking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ametherius/sfltrucking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ametherius/sfltrucking/issues"
+  },
+  "homepage": "https://github.com/Ametherius/sfltrucking#readme",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
