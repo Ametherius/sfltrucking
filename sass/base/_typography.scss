@@ -5,4 +5,16 @@ body {
 }
 
 .heading-primary {
+  color: $white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    text-shadow: .0rem 1.5rem 3rem $black;
+    animation: slideUp 1.5s ease-out;
+  }
 }

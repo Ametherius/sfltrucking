@@ -12,10 +12,42 @@ body {
   box-sizing: border-box;
 }
 
+@keyframes slideUp {
+  0% {
+    transform: scale(100%) translateY(10rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 body {
   padding: 2rem;
   line-height: 1.5;
   color: #0d3200;
+}
+
+.heading-primary {
+  color: #ffffff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.heading-primary--main {
+  display: block;
+  font-size: 6rem;
+  text-shadow: 0rem 1.5rem 3rem #000000;
+  animation: slideUp 1.5s ease-out;
 }
 
 .margin-bottom-1 {
@@ -32,6 +64,7 @@ body {
 
 .header {
   height: 95vh;
+  width: 100%;
   background-image: linear-gradient(to right bottom, rgba(167, 81, 19, 0.7), rgba(13, 50, 0, 0.7)), url("/images/homeimage.png");
   background-size: cover;
   background-position: top;
